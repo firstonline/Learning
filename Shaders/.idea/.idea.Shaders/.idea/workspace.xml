@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ef4a013-de8c-4b6d-a818-84d6c64b8b71" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Assets.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Materials/ClockDark.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Materials/ClockDark.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Materials/ClockRed.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Materials/ClockRed.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Materials/ColouredPoin.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Materials/ColouredPoin.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Materials/Fractal.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Materials/Fractal.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Materials/Neutron.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Materials/Neutron.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Materials/PersistentObjects/Metallic.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Materials/PersistentObjects/Metallic.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Materials/PersistentObjects/Shiny.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Materials/PersistentObjects/Shiny.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Materials/PersistentObjects/Standard.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Materials/PersistentObjects/Standard.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Materials/Proton.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Materials/Proton.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/CompositeCube.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/CompositeCube.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/CopositeCapsule.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/CopositeCapsule.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/CubeWithSphere.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/CubeWithSphere.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/GraphPoint.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/GraphPoint.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/Neutron.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/Neutron.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/PersistentCapsule.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/PersistentCapsule.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/PersistentCube.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/PersistentCube.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/PersistentSphere.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/PersistentSphere.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/Proton.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/Proton.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/Fractal.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/Fractal.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/FramesTest.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/FramesTest.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/MathematicalSurfaces.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/MathematicalSurfaces.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level1.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level1.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level1/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level1/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level1/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level1/ReflectionProbe-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level2.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level2.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level2/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level2/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level2/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level2/ReflectionProbe-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level3.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level3.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level3/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level3/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level3/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level3/ReflectionProbe-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/MainScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/MainScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/ScriptableObjects/ShapeFactory.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/ScriptableObjects/ShapeFactory.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Fractal/Fractal.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Fractal/Fractal.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FramesTest/FpsColour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FramesTest/FpsColour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FramesTest/FpsCounter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FramesTest/FpsCounter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FramesTest/FpsDisplay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FramesTest/FpsDisplay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FramesTest/Nucleon.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FramesTest/Nucleon.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FramesTest/NucleonSpawner.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FramesTest/NucleonSpawner.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Graph/Graph.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Graph/Graph.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Graph/GraphFunction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Graph/GraphFunction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Graph/GraphFunctionName.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Graph/GraphFunctionName.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/ColorRangeHSV.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/ColorRangeHSV.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/CompositeSpawnZone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/CompositeSpawnZone.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/CubeSpawnZone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/CubeSpawnZone.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/Editor/FloatRangeDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/Editor/FloatRangeDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/Editor/FloatRangeSliderDrawer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/Editor/FloatRangeSliderDrawer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/FloatRange.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/FloatRange.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/FloatRangeSliderAttribute.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/FloatRangeSliderAttribute.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/Game.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/Game.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/GameDataReader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/GameDataReader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/GameDataWriter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/GameDataWriter.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/GameLevel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/GameLevel.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/PersistableObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/PersistableObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/PersistentStorage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/PersistentStorage.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/RotatingObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/RotatingObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/Shape.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/Shape.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/ShapeFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/ShapeFactory.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/SpawnConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/SpawnConfiguration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/SpawnZone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/SpawnZone.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/SphereSpawnZone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/SphereSpawnZone.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Shaders/ColoredPoint.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Shaders/ColoredPoint.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Shaders/InstancedColors.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/Shaders/InstancedColors.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Fonts/LiberationSans.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Sprites/EmojiOne.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Sprites/EmojiOne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Packages/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/AudioManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/DynamicsManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/EditorSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/InputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/PresetManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/ProjectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/ProjectVersion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/QualitySettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/TagManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/TimeManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/VFXManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ProjectSettings/XRSettings.asset" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Shaders/Unlit.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <marker date="1575047426163" expanded="true" signature="27:344" ph="{...}" />
+                <marker date="1575047426163" expanded="true" signature="48:55" ph="{...}" />
+                <marker date="1575047426163" expanded="true" signature="74:342" ph="{...}" />
+                <marker date="1575047426163" expanded="true" signature="97:336" ph="{...}" />
+                <marker date="1575047426163" expanded="true" signature="122:319" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Shaders/Unlit.hlsl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>culli</find>
+      <find>ScriptableCullingParameters</find>
+      <find>cull</find>
+      <find>RenderPipeline</find>
+      <find>render</find>
+      <find>CreatePipeline</find>
+      <find>cullingParameters</find>
+      <find>DrawingSettings</find>
+      <find>sorting</find>
+      <find>drawse</find>
+      <find>settings</find>
+      <find>m_FilteringSettings</find>
+      <find>DrawRenderers</find>
+      <find>errorSettings</find>
+      <find>renderQueueRange</find>
+      <find>SRPDefaultUnlit</find>
+      <find>SortingSettings</find>
+      <find>filterSettings</find>
+      <find>sortFlags</find>
+      <find>renderingData</find>
+      <find>sortingCriteria</find>
+      <find>ScriptableRenderPass</find>
+      <find>CullingResults</find>
+      <find>Cull</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F55FB603-E84F-4928-AE3D-D5F6D0B3E174/6b/10bf7b8e/ScriptableCullingParameters.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/Passes/MainLightShadowCasterPass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/Passes/DepthOnlyPass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Unlit.hlsl" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F55FB603-E84F-4928-AE3D-D5F6D0B3E174/5a/40640290/CullingResults.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/ShadowUtils.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/Passes/DrawObjectsPass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/Passes/RenderObjectsPass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/Unlit.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/ScriptableRenderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/ScriptableRendererData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyPipeline.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/Passes/VolumeBlendingPass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/Passes/ScriptableRenderPass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F55FB603-E84F-4928-AE3D-D5F6D0B3E174/ed/c5bab6f8/DrawingSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyPipelineAsset.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/2D/Passes/Render2DLightingPass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F55FB603-E84F-4928-AE3D-D5F6D0B3E174/ed/335cfbbf/RenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/RenderingUtils.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@7.0.1/Runtime/RendererList/RendererList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/ForwardRenderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F55FB603-E84F-4928-AE3D-D5F6D0B3E174/99/7d6f4164/SortingSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/UniversalRenderPipelineCore.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F55FB603-E84F-4928-AE3D-D5F6D0B3E174/85/f25bdd67/ScriptableRenderContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F55FB603-E84F-4928-AE3D-D5F6D0B3E174/36/93262940/CommandBuffer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F55FB603-E84F-4928-AE3D-D5F6D0B3E174/ab/964c923e/FilteringSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/ForwardLights.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/Data/UniversalRenderPipelineAsset.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyPipline.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyPipelineAsset.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F55FB603-E84F-4928-AE3D-D5F6D0B3E174/85/f25bdd67/ScriptableRenderContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyPipeline.cs" />
+        <option value="$PROJECT_DIR$/Assets/Shaders/Unlit.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shaders/Unlit.hlsl" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.Shaders/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1920" />
+    <option name="y" value="-176" />
+    <option name="width" value="1080" />
+    <option name="height" value="1897" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="29519">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="29519" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1920" y="-176" width="1080" height="1897" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2495183" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32963988" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F55FB603-E84F-4928-AE3D-D5F6D0B3E174/36/93262940/CommandBuffer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30750">
+          <caret line="2057" column="11" selection-start-line="2057" selection-start-column="11" selection-end-line="2057" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F55FB603-E84F-4928-AE3D-D5F6D0B3E174/6b/10bf7b8e/ScriptableCullingParameters.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3005">
+          <caret line="32" column="40" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F55FB603-E84F-4928-AE3D-D5F6D0B3E174/5a/40640290/CullingResults.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="63" column="48" selection-start-line="63" selection-start-column="48" selection-end-line="63" selection-end-column="48" />
+          <folding>
+            <marker date="1575032320815" expanded="true" signature="0:352" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1575032320815" expanded="false" signature="360:526" ph="..." />
+            <marker date="1575032320815" expanded="true" signature="559:12927" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="564:677" ph="///   &lt;para&gt;Culling results (visible objects, lights, reflection probes).&lt;/para&gt; ... " />
+            <marker date="1575032320815" expanded="true" signature="974:12925" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="4704:4978" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="4984:5064" ph="///   &lt;para&gt;Array of visible lights.&lt;/para&gt; ... " />
+            <marker date="1575032320815" expanded="true" signature="5122:5301" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="5138:5295" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="5307:5422" ph="///   &lt;para&gt;Off screen lights that still effect visible Scene vertices.&lt;/para&gt; ... " />
+            <marker date="1575032320815" expanded="true" signature="5495:5704" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="5511:5698" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="5710:5801" ph="///   &lt;para&gt;Array of visible reflection probes.&lt;/para&gt; ... " />
+            <marker date="1575032320815" expanded="true" signature="5879:6088" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="5895:6082" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="6189:6453" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="6459:6659" ph="///   &lt;para&gt;Gets the number of per-object light indices.&lt;/para&gt; ... " />
+            <marker date="1575032320815" expanded="true" signature="6690:6813" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="6706:6807" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="6819:7041" ph="///   &lt;para&gt;Gets the number of per-object reflection probe indices.&lt;/para&gt; ... " />
+            <marker date="1575032320815" expanded="true" signature="7082:7215" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="7098:7209" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="7221:7463" ph="///   &lt;para&gt;Gets the number of per-object light and reflection probe indices.&lt;/para&gt; ... " />
+            <marker date="1575032320815" expanded="true" signature="7512:7691" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="7528:7685" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="7697:7885" ph="///   &lt;para&gt;Fills a compute buffer with per-object light indices.&lt;/para&gt; ... " />
+            <marker date="1575032320815" expanded="true" signature="7965:8082" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="8156:8534" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="8607:8765" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="8849:9247" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="9330:9498" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="9575:9698" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="9897:10088" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="10340:10554" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="10893:11168" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="11251:11751" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="11466:11545" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="11572:11745" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="11804:11917" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="11962:12092" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="12138:12223" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="12302:12347" ph="{...}" />
+            <marker date="1575032320815" expanded="true" signature="12426:12472" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/ScriptableRendererData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <marker date="1569841316000" expanded="false" signature="6:74" ph="..." />
+            <marker date="1569841316000" expanded="true" signature="117:1655" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="124:297" ph="/// Class &lt;c&gt;ScriptableRendererData&lt;/c&gt; contains resources for a &lt;c&gt;ScriptableRenderer&lt;/c&gt;. ... " />
+            <marker date="1569841316000" expanded="true" signature="407:1653" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="473:635" ph="/// Creates the instance of the ScriptableRenderer. ... " />
+            <marker date="1569841316000" expanded="true" signature="821:928" ph="/// List of additional render pass features for this renderer. ... " />
+            <marker date="1569841316000" expanded="true" signature="992:1051" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="1113:1197" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="1242:1296" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="1339:1393" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F55FB603-E84F-4928-AE3D-D5F6D0B3E174/ed/335cfbbf/RenderPipeline.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyPipelineAsset.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <marker date="1575037917413" expanded="true" signature="6:47" ph="..." />
+            <marker date="1575037917413" expanded="true" signature="152:251" ph="{...}" />
+            <marker date="1575037917413" expanded="true" signature="208:249" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F55FB603-E84F-4928-AE3D-D5F6D0B3E174/99/7d6f4164/SortingSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/Data/UniversalRenderPipelineAsset.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="468" column="9" lean-forward="true" selection-start-line="468" selection-start-column="9" selection-end-line="468" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/ForwardRenderer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="62" column="140" selection-start-line="62" selection-start-column="124" selection-end-line="62" selection-end-column="140" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/2D/Passes/Render2DLightingPass.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/Passes/RenderObjectsPass.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1051">
+          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
+          <folding>
+            <marker date="1569841316000" expanded="false" signature="6:142" ph="..." />
+            <marker date="1569841316000" expanded="true" signature="198:5357" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="313:5355" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="788:954" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="1094:1625" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="1878:3022" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="2458:2609" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="2626:2883" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="3126:5349" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="3917:5248" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="4052:4649" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="4894:5234" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/RenderingUtils.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="728">
+          <caret line="71" column="42" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
+          <folding>
+            <marker date="1569841316000" expanded="false" signature="6:114" ph="..." />
+            <marker date="1569841316000" expanded="true" signature="157:4121" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="240:4119" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="338:601" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="690:1793" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="716:1783" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="1050:1278" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="1359:1563" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="2199:2444" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="2225:2434" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="2710:3352" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="2942:3105" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="3655:3725" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="3811:4113" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="3905:4074" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/Passes/DrawObjectsPass.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding>
+            <marker date="1569841316000" expanded="true" signature="76:2745" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="83:331" ph="/// Draw  objects into the given color and depth target ... " />
+            <marker date="1569841316000" expanded="true" signature="389:2743" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="804:1586" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="1345:1576" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="1716:2737" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="1869:2636" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/UniversalRenderPipeline.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="201" column="39" selection-start-line="201" selection-start-column="26" selection-end-line="201" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/ScriptableRenderer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="180" column="23" selection-start-line="180" selection-start-column="23" selection-end-line="180" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/Passes/ScriptableRenderPass.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="205" column="36" selection-start-line="205" selection-start-column="36" selection-end-line="205" selection-end-column="36" />
+          <folding>
+            <marker date="1569841316000" expanded="false" signature="6:88" ph="..." />
+            <marker date="1569841316000" expanded="true" signature="131:12053" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="138:378" ph="/* Note: Spaced built-in events so we can add events in between them ... */" />
+            <marker date="1569841316000" expanded="true" signature="383:463" ph="/// Controls when the render pass executes. ... " />
+            <marker date="1569841316000" expanded="true" signature="537:1084" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="1090:1236" ph="/// &lt;c&gt;ScriptableRenderPass&lt;/c&gt; implements a logical rendering pass that can be used to extend LWRP renderer. ... " />
+            <marker date="1569841316000" expanded="true" signature="1325:12051" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="1447:1505" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="1560:1618" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="1654:1706" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="1739:1792" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="2213:2606" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="2616:3021" ph="/// Configures render targets for this render pass. Call this instead of CommandBuffer.SetRenderTarget. ... " />
+            <marker date="1569841316000" expanded="true" signature="3137:3296" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="3306:3632" ph="/// Configures render targets for this render pass. Call this instead of CommandBuffer.SetRenderTarget. ... " />
+            <marker date="1569841316000" expanded="true" signature="3708:3889" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="3899:4244" ph="/// Configures clearing for the render targets for this render pass. Call this inside Configure. ... " />
+            <marker date="1569841316000" expanded="true" signature="4318:4414" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="4424:5267" ph="/// This method is called by the renderer before executing the render pass. ... " />
+            <marker date="1569841316000" expanded="true" signature="5373:5384" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="5394:5611" ph="/// Cleanup any allocated data that was created during the execution of the pass. ... " />
+            <marker date="1569841316000" expanded="true" signature="5671:5682" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="5692:6039" ph="/// Execute the pass. This is where custom rendering occurs. Specific details are left to the implementation ... " />
+            <marker date="1569841316000" expanded="true" signature="6153:6855" ph="/// Add a blit command to the context for execution. This changes the active render target in the ScriptableRende ... " />
+            <marker date="1569841316000" expanded="true" signature="7011:7223" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="7233:8075" ph="/* Adds a Render Post-processing command for execution. This changes the active render target in the ScriptableR ... */" />
+            <marker date="1569841316000" expanded="true" signature="8536:8968" ph="/// Creates &lt;c&gt;DrawingSettings&lt;/c&gt; based on current the rendering state. ... " />
+            <marker date="1569841316000" expanded="true" signature="9112:9700" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="9391:9660" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="9710:10154" ph="/// Creates &lt;c&gt;DrawingSettings&lt;/c&gt; based on current rendering state. ... " />
+            <marker date="1569841316000" expanded="true" signature="10320:10961" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="10401:10676" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="11052:11134" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="11225:11307" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="11709:12045" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F55FB603-E84F-4928-AE3D-D5F6D0B3E174/ab/964c923e/FilteringSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="34" column="79" selection-start-line="34" selection-start-column="63" selection-end-line="34" selection-end-column="79" />
+          <folding>
+            <marker date="1575038333728" expanded="true" signature="0:355" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1575038333728" expanded="false" signature="363:398" ph="..." />
+            <marker date="1575038333728" expanded="true" signature="431:4344" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="436:546" ph="///   &lt;para&gt;Filter settings for ScriptableRenderContext.DrawRenderers.&lt;/para&gt; ... " />
+            <marker date="1575038333728" expanded="true" signature="612:4342" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="836:959" ph="///   &lt;para&gt;Provides a set of default values that causes no filtering to occur.&lt;/para&gt; ... " />
+            <marker date="1575038333728" expanded="true" signature="1008:1151" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="1024:1145" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="1389:1755" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="1761:1881" ph="///   &lt;para&gt;Render objects whose material render queue in inside this range.&lt;/para&gt; ... " />
+            <marker date="1575038333728" expanded="true" signature="1926:2071" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="1942:1998" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="2008:2065" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="2077:2177" ph="///   &lt;para&gt;Only render objects in the given layer mask.&lt;/para&gt; ... " />
+            <marker date="1575038333728" expanded="true" signature="2202:2333" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="2218:2267" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="2277:2327" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="2339:2474" ph="///   &lt;para&gt;The rendering layer mask to use when filtering available renderers for drawing.&lt;/para&gt; ... " />
+            <marker date="1575038333728" expanded="true" signature="2509:2658" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="2525:2583" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="2593:2652" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="2664:2823" ph="///   &lt;para&gt;Set to true to exclude objects that are currently in motion from rendering. The default value is fals ... " />
+            <marker date="1575038333728" expanded="true" signature="2866:3051" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="2882:2960" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="2970:3045" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="3057:3169" ph="///   &lt;para&gt;Render objects whose sorting layer is inside this range.&lt;/para&gt; ... " />
+            <marker date="1575038333728" expanded="true" signature="3216:3363" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="3232:3289" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="3299:3357" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="3412:3682" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="3727:3863" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="3902:4077" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="4162:4207" ph="{...}" />
+            <marker date="1575038333728" expanded="true" signature="4292:4338" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/UniversalRenderPipelineCore.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+          <folding>
+            <marker date="1569841316000" expanded="false" signature="6:113" ph="..." />
+            <marker date="1569841316000" expanded="true" signature="156:7686" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="235:302" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="378:730" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="801:1095" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="1167:2328" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="2400:2979" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="3017:3102" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="3148:5445" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="5502:7684" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="5636:5967" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="6011:6108" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="6282:7678" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="6458:6599" ph="{...}" />
+            <marker date="1569841316000" expanded="true" signature="6616:6875" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F55FB603-E84F-4928-AE3D-D5F6D0B3E174/85/f25bdd67/ScriptableRenderContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="480" column="5" selection-start-line="480" selection-start-column="5" selection-end-line="480" selection-end-column="5" />
+          <folding>
+            <marker date="1575041124729" expanded="true" signature="0:361" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1575041124729" expanded="false" signature="369:535" ph="..." />
+            <marker date="1575041124729" expanded="true" signature="568:21716" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="573:694" ph="///   &lt;para&gt;Defines state and drawing commands used in a custom render pipelines.&lt;/para&gt; ... " />
+            <marker date="1575041124729" expanded="true" signature="1203:21714" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="2468:2575" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="2827:2905" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="3137:3317" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="3386:3492" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="3498:3682" ph="///   &lt;para&gt;Emit UI geometry into the Scene view for rendering.&lt;/para&gt; ... " />
+            <marker date="1575041124729" expanded="true" signature="3966:4073" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="4196:4319" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="4410:4529" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="4614:4727" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="4792:4890" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="4945:5037" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="5090:5180" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="5238:5338" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="5416:5519" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="5558:5595" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="5672:5738" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="5923:6159" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="6355:6495" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="6631:6868" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="6960:7153" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="7297:7405" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="7518:7618" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="7624:7706" ph="///   &lt;para&gt;Ends the current sub pass.&lt;/para&gt; ... " />
+            <marker date="1575041124729" expanded="true" signature="7735:7833" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="7839:7924" ph="///   &lt;para&gt;Ends the current render pass.&lt;/para&gt; ... " />
+            <marker date="1575041124729" expanded="true" signature="7956:8057" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="8063:8155" ph="///   &lt;para&gt;Submit rendering loop for execution.&lt;/para&gt; ... " />
+            <marker date="1575041124729" expanded="true" signature="8180:8245" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="8404:8600" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="8805:9167" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="9426:10116" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="10188:10419" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="10425:10593" ph="///   &lt;para&gt;Execute a custom graphics command buffer.&lt;/para&gt; ... " />
+            <marker date="1575041124729" expanded="true" signature="10659:10849" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="10855:13473" ph="///         &lt;para&gt;Executes a command buffer on an async compute queue with the queue selected based on the Comput ... " />
+            <marker date="1575041124729" expanded="true" signature="13572:13778" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="13784:14115" ph="///   &lt;para&gt;Setup camera specific global shader variables.&lt;/para&gt; ... " />
+            <marker date="1575041124729" expanded="true" signature="14194:14264" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="14345:14449" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="14455:14723" ph="///   &lt;para&gt;Indicate completion of stereo rendering on a single frame.&lt;/para&gt; ... " />
+            <marker date="1575041124729" expanded="true" signature="14770:14827" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="14884:14943" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="15018:15116" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="15122:15397" ph="///   &lt;para&gt;Fine-grain control to begin stereo rendering on the scriptable render context.&lt;/para&gt; ... " />
+            <marker date="1575041124729" expanded="true" signature="15442:15491" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="15546:15629" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="15635:15822" ph="///   &lt;para&gt;Stop stereo rendering on the scriptable render context.&lt;/para&gt; ... " />
+            <marker date="1575041124729" expanded="true" signature="15866:15943" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="15949:16085" ph="///   &lt;para&gt;Draw skybox.&lt;/para&gt; ... " />
+            <marker date="1575041124729" expanded="true" signature="16127:16202" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="16208:16346" ph="///   &lt;para&gt;Use this function to invoke the OnRenderObject callback for MonoBehaviour scripts.&lt;/para&gt; ... " />
+            <marker date="1575041124729" expanded="true" signature="16393:16480" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="16486:16941" ph="///   &lt;para&gt;Draw a subset of Gizmos (before or after postprocessing) for the given camera.&lt;/para&gt; ... " />
+            <marker date="1575041124729" expanded="true" signature="17008:17096" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="17179:17383" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="17504:17648" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="17731:18252" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="17958:18037" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="18064:18246" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="18307:18373" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="18418:18566" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="18605:18656" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="18753:18798" ph="{...}" />
+            <marker date="1575041124729" expanded="true" signature="18895:18941" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F55FB603-E84F-4928-AE3D-D5F6D0B3E174/ed/c5bab6f8/DrawingSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+          <folding>
+            <marker date="1575038170563" expanded="true" signature="0:353" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1575038170563" expanded="true" signature="401:7427" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="406:509" ph="///   &lt;para&gt;Settings for ScriptableRenderContext.DrawRenderers.&lt;/para&gt; ... " />
+            <marker date="1575038170563" expanded="true" signature="571:7425" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="580:711" ph="///   &lt;para&gt;The maxiumum number of passes that can be rendered in 1 DrawRenderers call.&lt;/para&gt; ... " />
+            <marker date="1575038170563" expanded="true" signature="1153:1406" ph="///   &lt;para&gt;Create a draw settings struct.&lt;/para&gt; ... " />
+            <marker date="1575038170563" expanded="true" signature="1501:2140" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="1833:1996" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="2146:2239" ph="///   &lt;para&gt;How to sort objects during rendering.&lt;/para&gt; ... " />
+            <marker date="1575038170563" expanded="true" signature="2282:2425" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="2298:2353" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="2363:2419" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="2431:2542" ph="///   &lt;para&gt;What kind of per-object data to setup during rendering.&lt;/para&gt; ... " />
+            <marker date="1575038170563" expanded="true" signature="2581:2720" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="2597:2650" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="2660:2714" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="2726:2827" ph="///   &lt;para&gt;Controls whether dynamic batching is enabled.&lt;/para&gt; ... " />
+            <marker date="1575038170563" expanded="true" signature="2865:3181" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="2881:2982" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="2992:3175" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="3187:3282" ph="///   &lt;para&gt;Controls whether instancing is enabled.&lt;/para&gt; ... " />
+            <marker date="1575038170563" expanded="true" signature="3315:3616" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="3331:3427" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="3437:3610" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="3622:3751" ph="///   &lt;para&gt;Sets the Material to use for all drawers that would render in this group.&lt;/para&gt; ... " />
+            <marker date="1575038170563" expanded="true" signature="3788:4105" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="3804:3986" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="3996:4099" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="4111:4218" ph="///   &lt;para&gt;Selects which pass of the override material to use.&lt;/para&gt; ... " />
+            <marker date="1575038170563" expanded="true" signature="4259:4422" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="4275:4340" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="4350:4416" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="4428:4535" ph="///   &lt;para&gt;Configures what light should be used as main light.&lt;/para&gt; ... " />
+            <marker date="1575038170563" expanded="true" signature="4565:4706" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="4581:4635" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="4645:4700" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="4712:4890" ph="///   &lt;para&gt;Get the shader passes that this draw call can render.&lt;/para&gt; ... " />
+            <marker date="1575038170563" expanded="true" signature="4949:5344" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="5350:5598" ph="///   &lt;para&gt;Set the shader passes that this draw call can render.&lt;/para&gt; ... " />
+            <marker date="1575038170563" expanded="true" signature="5678:6059" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="6106:6667" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="6188:6311" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="6712:6844" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="6883:7168" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="7249:7294" ph="{...}" />
+            <marker date="1575038170563" expanded="true" signature="7375:7421" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyPipeline.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <marker date="1575046658000" expanded="true" signature="6:207" ph="..." />
+            <marker date="1575046658000" expanded="true" signature="249:4339" ph="{...}" />
+            <marker date="1575046658000" expanded="true" signature="346:375" ph="{...}" />
+            <marker date="1575046658000" expanded="true" signature="461:550" ph="{...}" />
+            <marker date="1575046658000" expanded="true" signature="507:547" ph="{...}" />
+            <marker date="1575046658000" expanded="true" signature="620:3245" ph="{...}" />
+            <marker date="1575046658000" expanded="true" signature="735:754" ph="{...}" />
+            <marker date="1575046658000" expanded="true" signature="984:1089" ph="{...}" />
+            <marker date="1575046658000" expanded="true" signature="2396:2709" ph="/* We draw the opaque renderers before the skybox to prevent overdraw. As the shapes will always be in front of ... */" />
+            <marker date="1575046658000" expanded="true" signature="3414:4337" ph="{...}" />
+            <marker date="1575046658000" expanded="true" signature="3446:3619" ph="{...}" />
+            <marker date="1575046658000" expanded="true" signature="3566:3614" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Unlit.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <marker date="1575047426163" expanded="true" signature="27:344" ph="{...}" />
+            <marker date="1575047426163" expanded="true" signature="48:55" ph="{...}" />
+            <marker date="1575047426163" expanded="true" signature="74:342" ph="{...}" />
+            <marker date="1575047426163" expanded="true" signature="97:336" ph="{...}" />
+            <marker date="1575047426163" expanded="true" signature="122:319" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Unlit.hlsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
