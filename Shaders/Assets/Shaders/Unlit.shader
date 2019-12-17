@@ -1,4 +1,4 @@
-﻿Shader "My Pipeline/Unlit"
+﻿Shader "MyPipeline/Unlit"
 {
     Properties
     {
@@ -13,7 +13,6 @@
             #pragma fragment UnlitPassFragment
             
             #include "Unlit.hlsl"
-            
                 
             ENDHLSL
         }

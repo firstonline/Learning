@@ -2,208 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ef4a013-de8c-4b6d-a818-84d6c64b8b71" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Assets.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Materials/ClockDark.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Materials/ClockDark.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Materials/ClockRed.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Materials/ClockRed.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Materials/ColouredPoin.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Materials/ColouredPoin.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Materials/Fractal.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Materials/Fractal.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Materials/Neutron.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Materials/Neutron.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Materials/PersistentObjects/Metallic.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Materials/PersistentObjects/Metallic.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Materials/PersistentObjects/Shiny.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Materials/PersistentObjects/Shiny.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Materials/PersistentObjects/Standard.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Materials/PersistentObjects/Standard.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Materials/Proton.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Materials/Proton.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/CompositeCube.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/CompositeCube.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/CopositeCapsule.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/CopositeCapsule.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/CubeWithSphere.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/CubeWithSphere.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/GraphPoint.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/GraphPoint.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/Neutron.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/Neutron.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/PersistentCapsule.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/PersistentCapsule.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/PersistentCube.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/PersistentCube.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/PersistentSphere.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/PersistentSphere.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/Proton.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Prefabs/Proton.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/Fractal.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/Fractal.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/FramesTest.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/FramesTest.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/MathematicalSurfaces.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/MathematicalSurfaces.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level1.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level1.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level1/LightingData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level1/LightingData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level1/ReflectionProbe-0.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level1/ReflectionProbe-0.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level2.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level2.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level2/LightingData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level2/LightingData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level2/ReflectionProbe-0.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level2/ReflectionProbe-0.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level3.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level3.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level3/LightingData.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level3/LightingData.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level3/ReflectionProbe-0.exr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/Level3/ReflectionProbe-0.exr.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/MainScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scenes/PersistingObjects/MainScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/ScriptableObjects/ShapeFactory.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/ScriptableObjects/ShapeFactory.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Fractal/Fractal.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Fractal/Fractal.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FramesTest/FpsColour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FramesTest/FpsColour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FramesTest/FpsCounter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FramesTest/FpsCounter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FramesTest/FpsDisplay.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FramesTest/FpsDisplay.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FramesTest/Nucleon.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FramesTest/Nucleon.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FramesTest/NucleonSpawner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/FramesTest/NucleonSpawner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Graph/Graph.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Graph/Graph.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Graph/GraphFunction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Graph/GraphFunction.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Graph/GraphFunctionName.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/Graph/GraphFunctionName.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/ColorRangeHSV.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/ColorRangeHSV.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/CompositeSpawnZone.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/CompositeSpawnZone.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/CubeSpawnZone.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/CubeSpawnZone.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/Editor/FloatRangeDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/Editor/FloatRangeDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/Editor/FloatRangeSliderDrawer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/Editor/FloatRangeSliderDrawer.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/FloatRange.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/FloatRange.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/FloatRangeSliderAttribute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/FloatRangeSliderAttribute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/Game.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/Game.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/GameDataReader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/GameDataReader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/GameDataWriter.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/GameDataWriter.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/GameLevel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/GameLevel.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/PersistableObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/PersistableObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/PersistentStorage.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/PersistentStorage.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/RotatingObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/RotatingObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/Shape.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/Shape.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/ShapeFactory.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/ShapeFactory.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/SpawnConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/SpawnConfiguration.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/SpawnZone.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/SpawnZone.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/SphereSpawnZone.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Scripts/PersistingObjects/SphereSpawnZone.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Shaders/ColoredPoint.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Shaders/ColoredPoint.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Shaders/InstancedColors.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/Shaders/InstancedColors.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Fonts/LiberationSans.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_SDF.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMPro.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Sprites/EmojiOne.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Sprites/EmojiOne.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Packages/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/AudioManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/DynamicsManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/EditorSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/InputManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/PresetManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/ProjectSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/ProjectVersion.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/QualitySettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/TagManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/TimeManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/VFXManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ProjectSettings/XRSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shaders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shaders/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Unlit.hlsl" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Unlit.hlsl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Unlit.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Unlit.shader" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -212,28 +13,28 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Shaders/Unlit.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="30">
+              <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
               <folding>
-                <marker date="1575047426163" expanded="true" signature="27:344" ph="{...}" />
-                <marker date="1575047426163" expanded="true" signature="48:55" ph="{...}" />
-                <marker date="1575047426163" expanded="true" signature="74:342" ph="{...}" />
-                <marker date="1575047426163" expanded="true" signature="97:336" ph="{...}" />
-                <marker date="1575047426163" expanded="true" signature="122:319" ph="{...}" />
+                <marker date="1575298165907" expanded="true" signature="26:330" ph="{...}" />
+                <marker date="1575298165907" expanded="true" signature="47:54" ph="{...}" />
+                <marker date="1575298165907" expanded="true" signature="73:328" ph="{...}" />
+                <marker date="1575298165907" expanded="true" signature="96:322" ph="{...}" />
+                <marker date="1575298165907" expanded="true" signature="121:305" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Shaders/Unlit.hlsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            <state relative-caret-position="60">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -266,6 +67,8 @@
       <find>ScriptableRenderPass</find>
       <find>CullingResults</find>
       <find>Cull</find>
+      <find>VertexOutput</find>
+      <find>output</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -321,7 +124,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1920" />
     <option name="y" value="-176" />
     <option name="width" value="1080" />
@@ -329,20 +132,10 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="AssemblyExplorer" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
@@ -391,29 +184,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-176" width="1080" height="1897" extended-state="0" />
+    <frame x="1920" y="-176" width="1080" height="1897" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.2495183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32963988" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32963988" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Unity" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
     </layout>
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
@@ -901,24 +694,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Unlit.shader">
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Unlit.hlsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <marker date="1575047426163" expanded="true" signature="27:344" ph="{...}" />
-            <marker date="1575047426163" expanded="true" signature="48:55" ph="{...}" />
-            <marker date="1575047426163" expanded="true" signature="74:342" ph="{...}" />
-            <marker date="1575047426163" expanded="true" signature="97:336" ph="{...}" />
-            <marker date="1575047426163" expanded="true" signature="122:319" ph="{...}" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Unlit.hlsl">
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Unlit.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        <state relative-caret-position="30">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding>
+            <marker date="1575298165907" expanded="true" signature="26:330" ph="{...}" />
+            <marker date="1575298165907" expanded="true" signature="47:54" ph="{...}" />
+            <marker date="1575298165907" expanded="true" signature="73:328" ph="{...}" />
+            <marker date="1575298165907" expanded="true" signature="96:322" ph="{...}" />
+            <marker date="1575298165907" expanded="true" signature="121:305" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
