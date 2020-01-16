@@ -8,6 +8,25 @@ using Conditional = System.Diagnostics.ConditionalAttribute;
 public class MyPipeline : RenderPipeline
 {
 	public Material errorMaterial;
+
+	private bool m_dynamicBatching;
+	private bool m_instancing;	// GPU instancing (CPU tells the GPU to draw a specific mesh-material combination more than once via a single draw call)
+	private const int m_maxVisibleLights = 4;
+
+	private static int m_visibleLightColorsId = Shader.PropertyToID("_VisibleLightColors");
+	private static int m_visibleLightDirectionsOrPositionsId =
+		Shader.PropertyToID("_VisibleLightDirectionsOrPositions");
+	
+	
+	private Vector4[] m_visibleLightColors = new Vector4[m_maxVisibleLights];
+	private Vector4[] m_visibleLightDirectionsOrPositions = new Vector4[m_maxVisibleLights];
+	
+	public MyPipeline(bool dynamicBatching, bool instancing)
+	{
+		GraphicsSettings.lightsUseLinearIntensity = true;
+		m_dynamicBatching = dynamicBatching;
+		m_instancing = instancing;
+	}
 	
 	private CommandBuffer m_commandBuffer = new CommandBuffer
 	{
@@ -45,9 +64,13 @@ public class MyPipeline : RenderPipeline
 		
 		// clear previous draw stuff
 		m_commandBuffer.ClearRenderTarget(true, false, Color.clear);
+
+		ConfigureLights(cullResults);
 		
 		// make "Render Camera" appear in the profiler to easier CPU usage tracking
 		m_commandBuffer.BeginSample("Render Camera");
+		m_commandBuffer.SetGlobalVectorArray(m_visibleLightColorsId, m_visibleLightColors);
+		m_commandBuffer.SetGlobalVectorArray(m_visibleLightDirectionsOrPositionsId, m_visibleLightDirectionsOrPositions);
 
 		// execute stored commands
 		context.ExecuteCommandBuffer(m_commandBuffer);
@@ -62,6 +85,7 @@ public class MyPipeline : RenderPipeline
 		// settings up drawing settings for objects with opaque Unlit shaders
 		SortingSettings sortingSettings = new SortingSettings(camera) { criteria = SortingCriteria.CommonOpaque };
 		var drawSettings = new DrawingSettings(new ShaderTagId("SRPDefaultUnlit"), sortingSettings);
+		drawSettings.enableDynamicBatching = m_dynamicBatching;
 		
 		// settings up filters for objects with opaque shaders 
 		var filterSettings = FilteringSettings.defaultValue;
@@ -97,6 +121,8 @@ public class MyPipeline : RenderPipeline
 		context.Submit();
 	}
 
+	
+	// conditional functions are only executed when conditions are met
 	[Conditional("DEVELOPMENT_BUILD"), Conditional("UNITY_EDITOR")]
 	private void DrawDefaultPipeline(ScriptableRenderContext context, Camera camera, CullingResults cull)
 	{
@@ -121,5 +147,37 @@ public class MyPipeline : RenderPipeline
 		var filterSettings = FilteringSettings.defaultValue;
 		
 		context.DrawRenderers(cull, ref drawSettings, ref filterSettings);
+	}
+
+	private void ConfigureLights(CullingResults cull)
+	{
+		int i = 0;
+		for (; i < cull.visibleLights.Length && i < m_maxVisibleLights; i++)
+		{
+			VisibleLight light = cull.visibleLights[i];
+			m_visibleLightColors[i] = light.finalColor;
+
+			if (light.lightType == LightType.Directional)
+			{
+				// index 0 - x vector
+				// index 1 - y vector
+				// index 2 - z vector
+				// index 3 - position
+				Vector4 v = light.localToWorldMatrix.GetColumn(2);
+				v.x = -v.x;
+				v.y = -v.y;
+				v.z = v.z;
+				m_visibleLightDirectionsOrPositions[i] = v;
+			}
+			else
+			{
+				m_visibleLightDirectionsOrPositions[i] = light.localToWorldMatrix.GetColumn(3);
+			}
+		}
+
+		for (; i < m_maxVisibleLights; i++)
+		{
+			m_visibleLightColors[i] = Color.clear;
+		}
 	}
 }
