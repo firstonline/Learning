@@ -18,15 +18,30 @@ CBUFFER_END
 // buffer that holds reference to all lights, from source to light
 CBUFFER_START(_LightBuffer)
     float4 _VisibleLightColors[MAX_VISIBLE_LIGHTS];
-    float4 _VisibleLightDirectionsOrPositions[MAX_VISIBLE_LIGHTS];
+    float4 _VisibleLightDirectionsOrPositions[MAX_VISIBLE_LIGHTS]; // direction will be use for directional array and position will be used for point array
+    float4 _VisibleLightAttenuations[MAX_VISIBLE_LIGHTS];
 CBUFFER_END
 
-float3 DiffuseLight(int index, float3 normal)
+// index - index of the light to use
+// normal - surface normal
+// worldPos - vertex in world position
+float3 DiffuseLight(int index, float3 normal, float3 worldPos)
 {
     float3 lightColor = _VisibleLightColors[index].rgb;
-    float3 lightPositionOrDirection = _VisibleLightDirectionsOrPositions[index];
-    float lightDirection = lightPositionOrDirection.xyz;
+    float4 lightPositionOrDirection = _VisibleLightDirectionsOrPositions[index];
+    float4 lightAttenuation = _VisibleLightAttenuations[index];
+    
+    float3 lightVector = lightPositionOrDirection.xyz - worldPos * lightPositionOrDirection.w; // if it is a position vector w will be 1 otherwise 0 
+    float lightDirection = normalize(lightVector);
     float diffuse = saturate(dot(normal,lightDirection));
+    
+    float rangeFade = dot(lightVector, lightVector) * lightAttenuation.x;
+    rangeFade = saturate(1.0 - rangeFade * rangeFade);
+    rangeFade *= rangeFade;
+    float distanceSqr = max(dot(lightVector, lightVector), 0.00001); // calculate the distance from vertex to light
+	diffuse *= rangeFade / distanceSqr; // decrease intensity depending on distance and range fade
+ 
+   
     return diffuse * lightColor;
 }
 
@@ -51,6 +66,7 @@ struct VertexOutput
 {
     float4 clipPos : SV_POSITION;
     float3 normal : TEXCOORD0; // surface normal
+    float3 worldPos : TEXCOORD1; // vertex in world position
     UNITY_VERTEX_INPUT_INSTANCE_ID // needed for GPU instancing to know which color to take from array
 };
 
@@ -62,6 +78,7 @@ VertexOutput LitPassVertex(VertexInput input)
     float4 worldPos = mul(UNITY_MATRIX_M, float4(input.pos.xyz, 1)); // transform vertex to world position
     output.clipPos = mul(unity_MatrixVP, worldPos); // clup vertext to view projection
     output.normal = mul((float3x3) UNITY_MATRIX_M, input.normal);
+    output.worldPos = worldPos.xyz;
     return output;
 }
 
@@ -71,10 +88,10 @@ float4 LitPassFragment(VertexOutput input) : SV_TARGET
     input.normal = normalize(input.normal);
     float3 albedo = UNITY_ACCESS_INSTANCED_PROP(PerInstance, _Color).rgb;
     
-    float3 diffuseLight = 0;
+    float3 diffuseLight = 0; 
     for (int i = 0; i < MAX_VISIBLE_LIGHTS; i++)
     {
-        diffuseLight += DiffuseLight(i, input.normal);
+        diffuseLight += DiffuseLight(i, input.normal, input.worldPos);
     }
     
     float3 color = diffuseLight * albedo;

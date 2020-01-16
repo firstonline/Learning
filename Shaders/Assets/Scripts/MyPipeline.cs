@@ -16,10 +16,14 @@ public class MyPipeline : RenderPipeline
 	private static int m_visibleLightColorsId = Shader.PropertyToID("_VisibleLightColors");
 	private static int m_visibleLightDirectionsOrPositionsId =
 		Shader.PropertyToID("_VisibleLightDirectionsOrPositions");
+	private static int m_visibleLightAttenuationsId = Shader.PropertyToID("_VisibleLightAttenuations");
+	private static int m_visibleLightSpotDirectionsId = Shader.PropertyToID("_VisibleLightSpotDirections");
 	
 	
 	private Vector4[] m_visibleLightColors = new Vector4[m_maxVisibleLights];
 	private Vector4[] m_visibleLightDirectionsOrPositions = new Vector4[m_maxVisibleLights];
+	private Vector4[] m_visibleLightAttenuations = new Vector4[m_maxVisibleLights];
+	private Vector4[] m_visibleLightSpotDirections = new Vector4[m_maxVisibleLights];
 	
 	public MyPipeline(bool dynamicBatching, bool instancing)
 	{
@@ -71,6 +75,8 @@ public class MyPipeline : RenderPipeline
 		m_commandBuffer.BeginSample("Render Camera");
 		m_commandBuffer.SetGlobalVectorArray(m_visibleLightColorsId, m_visibleLightColors);
 		m_commandBuffer.SetGlobalVectorArray(m_visibleLightDirectionsOrPositionsId, m_visibleLightDirectionsOrPositions);
+		m_commandBuffer.SetGlobalVectorArray(m_visibleLightAttenuationsId, m_visibleLightAttenuations);
+		m_commandBuffer.SetGlobalVectorArray(m_visibleLightSpotDirectionsId, m_visibleLightSpotDirections);
 
 		// execute stored commands
 		context.ExecuteCommandBuffer(m_commandBuffer);
@@ -157,6 +163,7 @@ public class MyPipeline : RenderPipeline
 			VisibleLight light = cull.visibleLights[i];
 			m_visibleLightColors[i] = light.finalColor;
 
+			Vector4 attenuation = Vector4.zero;
 			if (light.lightType == LightType.Directional)
 			{
 				// index 0 - x vector
@@ -172,7 +179,16 @@ public class MyPipeline : RenderPipeline
 			else
 			{
 				m_visibleLightDirectionsOrPositions[i] = light.localToWorldMatrix.GetColumn(3);
+				attenuation.x = 1f / Mathf.Max(light.range * light.range, 0.00001f);
+
+				if (light.lightType == LightType.Spot)
+				{
+					Vector4 v = light.localToWorldMatrix.GetColumn(2);
+					
+				}
 			}
+
+			m_visibleLightAttenuations[i] = attenuation;
 		}
 
 		for (; i < m_maxVisibleLights; i++)
