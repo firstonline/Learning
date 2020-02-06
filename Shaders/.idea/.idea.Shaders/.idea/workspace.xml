@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ef4a013-de8c-4b6d-a818-84d6c64b8b71" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shaders/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shaders/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shaders/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shaders/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shaders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shaders/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/UnlitColor.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/UnlitColor.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MyPipeline.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MyPipeline.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Shaders1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Shaders1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MyPipeline.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MyPipeline.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MyPipelineAsset.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MyPipelineAsset.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Unlit.hlsl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Unlit.hlsl.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Unlit.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Unlit.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InstancedColor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InstancedColor.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,28 +17,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyPipeline.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="72" column="119" selection-start-line="72" selection-start-column="119" selection-end-line="72" selection-end-column="119" />
+            <state relative-caret-position="945">
+              <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
               <folding>
-                <marker date="1579100316051" expanded="true" signature="6:207" ph="..." />
-                <marker date="1579100316051" expanded="true" signature="249:6243" ph="{...}" />
-                <marker date="1579100316051" expanded="true" signature="949:1075" ph="{...}" />
-                <marker date="1579100316051" expanded="true" signature="1138:1167" ph="{...}" />
-                <marker date="1579100316051" expanded="true" signature="1253:1342" ph="{...}" />
-                <marker date="1579100316051" expanded="true" signature="1299:1339" ph="{...}" />
-                <marker date="1579100316051" expanded="true" signature="1412:4330" ph="{...}" />
-                <marker date="1579100316051" expanded="true" signature="1527:1546" ph="{...}" />
-                <marker date="1579100316051" expanded="true" signature="1776:1881" ph="{...}" />
-                <marker date="1579100316051" expanded="true" signature="3481:3794" ph="/* We draw the opaque renderers before the skybox to prevent overdraw. As the shapes will always be in front of ... */" />
-                <marker date="1579100316051" expanded="true" signature="4569:5492" ph="{...}" />
-                <marker date="1579100316051" expanded="true" signature="4601:4774" ph="{...}" />
-                <marker date="1579100316051" expanded="true" signature="4721:4769" ph="{...}" />
-                <marker date="1579100316051" expanded="true" signature="5544:6241" ph="{...}" />
-                <marker date="1579100316051" expanded="true" signature="5631:6149" ph="{...}" />
-                <marker date="1579100316051" expanded="true" signature="5779:6043" ph="{...}" />
-                <marker date="1579100316051" expanded="true" signature="5789:5888" ph="/* index 0 - x vector ... */" />
-                <marker date="1579100316051" expanded="true" signature="6051:6145" ph="{...}" />
-                <marker date="1579100316051" expanded="true" signature="6188:6238" ph="{...}" />
+                <marker date="1579169480983" expanded="false" signature="6:207" ph="..." />
+                <marker date="1579169480983" expanded="true" signature="249:7092" ph="{...}" />
+                <marker date="1579169480983" expanded="true" signature="1319:1445" ph="{...}" />
+                <marker date="1579169480983" expanded="true" signature="1508:1537" ph="{...}" />
+                <marker date="1579169480983" expanded="true" signature="1623:1712" ph="{...}" />
+                <marker date="1579169480983" expanded="true" signature="1669:1709" ph="{...}" />
+                <marker date="1579169480983" expanded="true" signature="1782:4900" ph="{...}" />
+                <marker date="1579169480983" expanded="true" signature="1897:1916" ph="{...}" />
+                <marker date="1579169480983" expanded="true" signature="2146:2251" ph="{...}" />
+                <marker date="1579169480983" expanded="true" signature="4051:4364" ph="/* We draw the opaque renderers before the skybox to prevent overdraw. As the shapes will always be in front of ... */" />
+                <marker date="1579169480983" expanded="true" signature="5139:6062" ph="{...}" />
+                <marker date="1579169480983" expanded="true" signature="5171:5344" ph="{...}" />
+                <marker date="1579169480983" expanded="true" signature="5291:5339" ph="{...}" />
+                <marker date="1579169480983" expanded="true" signature="6114:7090" ph="{...}" />
+                <marker date="1579169480983" expanded="true" signature="6201:6998" ph="{...}" />
+                <marker date="1579169480983" expanded="true" signature="6388:6652" ph="{...}" />
+                <marker date="1579169480983" expanded="true" signature="6398:6497" ph="/* index 0 - x vector ... */" />
+                <marker date="1579169480983" expanded="true" signature="6660:6945" ph="{...}" />
+                <marker date="1579169480983" expanded="true" signature="6866:6940" ph="{...}" />
+                <marker date="1579169480983" expanded="true" signature="7037:7087" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -55,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyPipelineAsset.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="-30">
               <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding>
                 <marker date="1579088884452" expanded="true" signature="6:47" ph="..." />
@@ -66,11 +59,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/ShaderLibrary/Lit.hlsl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            <state relative-caret-position="180">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/InstancedColor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+              <folding>
+                <marker date="1580831126633" expanded="true" signature="6:47" ph="..." />
+                <marker date="1580831126633" expanded="true" signature="50:284" ph="/* this class is to handle colors on the material. this ... */" />
+                <marker date="1580831126633" expanded="true" signature="328:841" ph="{...}" />
+                <marker date="1580831126633" expanded="true" signature="532:565" ph="{...}" />
+                <marker date="1580831126633" expanded="true" signature="596:839" ph="{...}" />
+                <marker date="1580831126633" expanded="true" signature="655:713" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EBEF732E-5C93-42D2-879D-808DB052E86B/95/7d09fc99/PBXCapabilityType.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -78,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Shaders/Lit.shader">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+            <state relative-caret-position="525">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <marker date="1579091339618" expanded="true" signature="24:1169" ph="{...}" />
                 <marker date="1579091339618" expanded="true" signature="45:99" ph="{...}" />
@@ -147,6 +166,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/ScriptableRendererData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyPipeline.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/Passes/VolumeBlendingPass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EBEF732E-5C93-42D2-879D-808DB052E86B/95/7d09fc99/PBXCapabilityType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@7.0.1/Runtime/Passes/ScriptableRenderPass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F55FB603-E84F-4928-AE3D-D5F6D0B3E174/ed/c5bab6f8/DrawingSettings.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyPipelineAsset.cs" root0="FORCE_HIGHLIGHTING" />
@@ -172,11 +192,11 @@
         <option value="$PROJECT_DIR$/Assets/Shaders/Unlit.hlsl" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MyPipelineAsset.cs" />
         <option value="$PROJECT_DIR$/Assets/Shaders/Unlit.shader" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InstancedColor.cs" />
         <option value="$PROJECT_DIR$/Assets/ShaderLibrary/Unlit.hlsl" />
         <option value="$PROJECT_DIR$/Assets/Shaders/Lit.shader" />
         <option value="$PROJECT_DIR$/Assets/ShaderLibrary/Lit.hlsl" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MyPipeline.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InstancedColor.cs" />
       </list>
     </option>
   </component>
@@ -184,15 +204,15 @@
     <option name="files">
       <list>
         <option value="$PROJECT_DIR$/.idea/.idea.Shaders/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/../New Unity Project/.idea/.idea.New Unity Project/riderModule.iml" />
+        <option value="$PROJECT_DIR$/../Experimenting/.idea/.idea.Experimenting/riderModule.iml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1920" />
-    <option name="y" value="-176" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="401" />
+    <option name="y" value="23" />
     <option name="width" value="1080" />
-    <option name="height" value="1897" />
+    <option name="height" value="987" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -248,7 +268,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-176" width="1080" height="1897" extended-state="1" />
+    <frame x="401" y="23" width="1080" height="987" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2495183" />
@@ -725,13 +745,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Unlit.hlsl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="86" selection-start-line="28" selection-start-column="86" selection-end-line="28" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Shaders/Unlit.hlsl" />
     <entry file="file://$PROJECT_DIR$/Assets/Shaders/Unlit.shader">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -753,24 +767,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InstancedColor.cs">
+    <entry file="file://$PROJECT_DIR$/Temp/Compiled-MyPipeline-Lit.shader" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyPipeline.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+        <state relative-caret-position="945">
+          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
           <folding>
-            <marker date="1579090229426" expanded="true" signature="6:78" ph="..." />
-            <marker date="1579090229426" expanded="true" signature="81:315" ph="/* this class is to handle colors on the material. this ... */" />
-            <marker date="1579090229426" expanded="true" signature="359:850" ph="{...}" />
-            <marker date="1579090229426" expanded="true" signature="563:596" ph="{...}" />
-            <marker date="1579090229426" expanded="true" signature="627:848" ph="{...}" />
-            <marker date="1579090229426" expanded="true" signature="664:722" ph="{...}" />
+            <marker date="1579169480983" expanded="false" signature="6:207" ph="..." />
+            <marker date="1579169480983" expanded="true" signature="249:7092" ph="{...}" />
+            <marker date="1579169480983" expanded="true" signature="1319:1445" ph="{...}" />
+            <marker date="1579169480983" expanded="true" signature="1508:1537" ph="{...}" />
+            <marker date="1579169480983" expanded="true" signature="1623:1712" ph="{...}" />
+            <marker date="1579169480983" expanded="true" signature="1669:1709" ph="{...}" />
+            <marker date="1579169480983" expanded="true" signature="1782:4900" ph="{...}" />
+            <marker date="1579169480983" expanded="true" signature="1897:1916" ph="{...}" />
+            <marker date="1579169480983" expanded="true" signature="2146:2251" ph="{...}" />
+            <marker date="1579169480983" expanded="true" signature="4051:4364" ph="/* We draw the opaque renderers before the skybox to prevent overdraw. As the shapes will always be in front of ... */" />
+            <marker date="1579169480983" expanded="true" signature="5139:6062" ph="{...}" />
+            <marker date="1579169480983" expanded="true" signature="5171:5344" ph="{...}" />
+            <marker date="1579169480983" expanded="true" signature="5291:5339" ph="{...}" />
+            <marker date="1579169480983" expanded="true" signature="6114:7090" ph="{...}" />
+            <marker date="1579169480983" expanded="true" signature="6201:6998" ph="{...}" />
+            <marker date="1579169480983" expanded="true" signature="6388:6652" ph="{...}" />
+            <marker date="1579169480983" expanded="true" signature="6398:6497" ph="/* index 0 - x vector ... */" />
+            <marker date="1579169480983" expanded="true" signature="6660:6945" ph="{...}" />
+            <marker date="1579169480983" expanded="true" signature="6866:6940" ph="{...}" />
+            <marker date="1579169480983" expanded="true" signature="7037:7087" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyPipelineAsset.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="-30">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
             <marker date="1579088884452" expanded="true" signature="6:47" ph="..." />
@@ -780,38 +809,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyPipeline.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="72" column="119" selection-start-line="72" selection-start-column="119" selection-end-line="72" selection-end-column="119" />
-          <folding>
-            <marker date="1579100316051" expanded="true" signature="6:207" ph="..." />
-            <marker date="1579100316051" expanded="true" signature="249:6243" ph="{...}" />
-            <marker date="1579100316051" expanded="true" signature="949:1075" ph="{...}" />
-            <marker date="1579100316051" expanded="true" signature="1138:1167" ph="{...}" />
-            <marker date="1579100316051" expanded="true" signature="1253:1342" ph="{...}" />
-            <marker date="1579100316051" expanded="true" signature="1299:1339" ph="{...}" />
-            <marker date="1579100316051" expanded="true" signature="1412:4330" ph="{...}" />
-            <marker date="1579100316051" expanded="true" signature="1527:1546" ph="{...}" />
-            <marker date="1579100316051" expanded="true" signature="1776:1881" ph="{...}" />
-            <marker date="1579100316051" expanded="true" signature="3481:3794" ph="/* We draw the opaque renderers before the skybox to prevent overdraw. As the shapes will always be in front of ... */" />
-            <marker date="1579100316051" expanded="true" signature="4569:5492" ph="{...}" />
-            <marker date="1579100316051" expanded="true" signature="4601:4774" ph="{...}" />
-            <marker date="1579100316051" expanded="true" signature="4721:4769" ph="{...}" />
-            <marker date="1579100316051" expanded="true" signature="5544:6241" ph="{...}" />
-            <marker date="1579100316051" expanded="true" signature="5631:6149" ph="{...}" />
-            <marker date="1579100316051" expanded="true" signature="5779:6043" ph="{...}" />
-            <marker date="1579100316051" expanded="true" signature="5789:5888" ph="/* index 0 - x vector ... */" />
-            <marker date="1579100316051" expanded="true" signature="6051:6145" ph="{...}" />
-            <marker date="1579100316051" expanded="true" signature="6188:6238" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Shaders/Lit.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        <state relative-caret-position="525">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
             <marker date="1579091339618" expanded="true" signature="24:1169" ph="{...}" />
             <marker date="1579091339618" expanded="true" signature="45:99" ph="{...}" />
@@ -824,8 +825,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/ShaderLibrary/Lit.hlsl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        <state relative-caret-position="180">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/InstancedColor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <marker date="1580831126633" expanded="true" signature="6:47" ph="..." />
+            <marker date="1580831126633" expanded="true" signature="50:284" ph="/* this class is to handle colors on the material. this ... */" />
+            <marker date="1580831126633" expanded="true" signature="328:841" ph="{...}" />
+            <marker date="1580831126633" expanded="true" signature="532:565" ph="{...}" />
+            <marker date="1580831126633" expanded="true" signature="596:839" ph="{...}" />
+            <marker date="1580831126633" expanded="true" signature="655:713" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EBEF732E-5C93-42D2-879D-808DB052E86B/95/7d09fc99/PBXCapabilityType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
         </state>
       </provider>
     </entry>

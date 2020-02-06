@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor.iOS.Xcode;
+using UnityEngine;
 
 
 // this class is to handle colors on the material. this 
@@ -18,6 +19,7 @@ public class InstancedColor : MonoBehaviour
 
     private void OnValidate()
     {
+    PBXCapabilityType
 		if (m_propertyBlock == null)
 		{
 			m_propertyBlock = new MaterialPropertyBlock();
