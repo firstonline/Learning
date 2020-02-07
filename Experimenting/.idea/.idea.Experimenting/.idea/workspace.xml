@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66892a93-a8fe-4783-a480-4c7b05d88c5b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Shaders/.idea/.idea.Shaders/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shaders/.idea/.idea.Shaders/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shaders/.idea/.idea.Shaders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Shaders/.idea/.idea.Shaders/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Shaders/Assets/Scripts/InstancedColor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Shaders/Assets/Scripts/InstancedColor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Experimenting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Experimenting/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Walkable.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-624">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="495">
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
               <folding>
                 <marker date="1581007501268" expanded="true" signature="6:78" ph="..." />
                 <marker date="1581007501268" expanded="true" signature="117:2977" ph="{...}" />
@@ -50,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rotator.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="148">
-              <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="21" />
+              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="21" />
               <folding>
                 <marker date="1581008074757" expanded="false" signature="6:97" ph="..." />
                 <marker date="1581008074757" expanded="true" signature="135:2259" ph="{...}" />
@@ -102,7 +102,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -167,6 +167,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>m_currentCube</find>
+      <find>.log</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -196,6 +197,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Walkable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Rotator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/../.gitignore" />
       </list>
     </option>
   </component>
@@ -481,7 +483,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Rotator.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
-          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="21" />
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="21" />
           <folding>
             <marker date="1581008074757" expanded="false" signature="6:97" ph="..." />
             <marker date="1581008074757" expanded="true" signature="135:2259" ph="{...}" />
@@ -500,36 +502,6 @@
             <marker date="1581008074757" expanded="true" signature="1915:2063" ph="{...}" />
             <marker date="1581008074757" expanded="true" signature="2120:2257" ph="{...}" />
             <marker date="1581008074757" expanded="true" signature="2186:2254" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Walkable.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-624">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <marker date="1581007501268" expanded="true" signature="6:78" ph="..." />
-            <marker date="1581007501268" expanded="true" signature="117:2977" ph="{...}" />
-            <marker date="1581007501268" expanded="true" signature="398:458" ph="{...}" />
-            <marker date="1581007501268" expanded="true" signature="546:598" ph="{...}" />
-            <marker date="1581007501268" expanded="true" signature="637:754" ph="{...}" />
-            <marker date="1581007501268" expanded="true" signature="800:1094" ph="{...}" />
-            <marker date="1581007501268" expanded="true" signature="873:1088" ph="{...}" />
-            <marker date="1581007501268" expanded="true" signature="943:1032" ph="{...}" />
-            <marker date="1581007501268" expanded="true" signature="1146:1270" ph="{...}" />
-            <marker date="1581007501268" expanded="true" signature="1201:1264" ph="{...}" />
-            <marker date="1581007501268" expanded="true" signature="1325:1379" ph="{...}" />
-            <marker date="1581007501268" expanded="true" signature="1416:2055" ph="{...}" />
-            <marker date="1581007501268" expanded="true" signature="1585:2049" ph="{...}" />
-            <marker date="1581007501268" expanded="true" signature="1664:2039" ph="{...}" />
-            <marker date="1581007501268" expanded="true" signature="1777:2025" ph="{...}" />
-            <marker date="1581007501268" expanded="true" signature="2104:2764" ph="{...}" />
-            <marker date="1581007501268" expanded="true" signature="2236:2758" ph="{...}" />
-            <marker date="1581007501268" expanded="true" signature="2380:2432" ph="{...}" />
-            <marker date="1581007501268" expanded="true" signature="2673:2748" ph="{...}" />
-            <marker date="1581007501268" expanded="true" signature="2812:2975" ph="{...}" />
-            <marker date="1581007501268" expanded="true" signature="2903:2969" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -565,6 +537,43 @@
             <marker date="1581009226738" expanded="true" signature="3551:3779" ph="{...}" />
             <marker date="1581009226738" expanded="true" signature="3640:3773" ph="{...}" />
             <marker date="1581009226738" expanded="true" signature="3692:3763" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Walkable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding>
+            <marker date="1581007501268" expanded="true" signature="6:78" ph="..." />
+            <marker date="1581007501268" expanded="true" signature="117:2977" ph="{...}" />
+            <marker date="1581007501268" expanded="true" signature="398:458" ph="{...}" />
+            <marker date="1581007501268" expanded="true" signature="546:598" ph="{...}" />
+            <marker date="1581007501268" expanded="true" signature="637:754" ph="{...}" />
+            <marker date="1581007501268" expanded="true" signature="800:1094" ph="{...}" />
+            <marker date="1581007501268" expanded="true" signature="873:1088" ph="{...}" />
+            <marker date="1581007501268" expanded="true" signature="943:1032" ph="{...}" />
+            <marker date="1581007501268" expanded="true" signature="1146:1270" ph="{...}" />
+            <marker date="1581007501268" expanded="true" signature="1201:1264" ph="{...}" />
+            <marker date="1581007501268" expanded="true" signature="1325:1379" ph="{...}" />
+            <marker date="1581007501268" expanded="true" signature="1416:2055" ph="{...}" />
+            <marker date="1581007501268" expanded="true" signature="1585:2049" ph="{...}" />
+            <marker date="1581007501268" expanded="true" signature="1664:2039" ph="{...}" />
+            <marker date="1581007501268" expanded="true" signature="1777:2025" ph="{...}" />
+            <marker date="1581007501268" expanded="true" signature="2104:2764" ph="{...}" />
+            <marker date="1581007501268" expanded="true" signature="2236:2758" ph="{...}" />
+            <marker date="1581007501268" expanded="true" signature="2380:2432" ph="{...}" />
+            <marker date="1581007501268" expanded="true" signature="2673:2748" ph="{...}" />
+            <marker date="1581007501268" expanded="true" signature="2812:2975" ph="{...}" />
+            <marker date="1581007501268" expanded="true" signature="2903:2969" ph="{...}" />
           </folding>
         </state>
       </provider>
