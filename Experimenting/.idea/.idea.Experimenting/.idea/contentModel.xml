@@ -19,11 +19,13 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="PathFinder.cs" t="Include" />
-          <e p="PlayerController.cs" t="Include" />
-          <e p="Rotator.cs" t="Include" />
-          <e p="Trigger.cs" t="Include" />
-          <e p="Walkable.cs" t="Include" />
+          <e p="MonumentValley" t="Include">
+            <e p="PathFinder.cs" t="Include" />
+            <e p="PlayerController.cs" t="Include" />
+            <e p="Rotator.cs" t="Include" />
+            <e p="Trigger.cs" t="Include" />
+            <e p="Walkable.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Experimenting.sln" t="IncludeFlat" />
